@@ -1,0 +1,113 @@
+/* Body */
+body{
+    background-color: blanchedalmond; 
+}
+/* Navigation Bar*/
+.navbar{
+    max-height: 57px;
+    background-color:cornsilk; 
+    font-size: 15px; 
+}
+.navbar_title{
+    color:  white; 
+    margin-left: 30px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color: navajowhite;
+    font-family: Broadway;
+    font-size: 20px;
+}
+.active, .dropdown-menu .dropdown_list:active a:hover{
+    background-color:navajowhite; 
+    font-family: Bahnschrift Condensed;
+}
+.dropdown_list{
+    color: black; 
+    font-family: Bahnschrift Condensed;
+}
+.dropdown .dropdown-menu .dropdown_list:active, .dropdown .dropdown-menu .dropdown_list:hover{
+    background-color:navajowhite; 
+}
+
+a{
+    color: black;
+    font-size: 15px; 
+}
+.nav-link:hover{
+    background-color:navajowhite;
+    font-family: Bahnschrift Condensed;
+   }
+
+/* Images */
+img{
+    width:100%;
+    height:100%;
+}
+.active, .panel:hover{
+    border-color: black;
+    border-style: solid; 
+}
+.vizualization{
+    width:50%;
+    height:50%;
+}
+
+
+/* Titles */
+.title{
+    color:  lightcoral;  
+    font-family: Broadway;
+    font-weight: bold; 
+    padding-top: 25px; 
+}
+.graphs_titles{
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    font-family: Bahnschrift Condensed;
+}
+.graphs_comparison_titles{
+    color:  lightcoral;  
+    font-family: Broadway;
+    text-align: center;
+}
+
+
+/* Paragraphs / Content */
+p{
+ color: black;
+ font-family: Bahnschrift Condensed;
+ font-size: 17px; 
+}
+/* Boxes */
+.box {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    padding: 10px 20px 15px;
+    background-color:cornsilk; 
+}
+
+/* Tables */
+  .table{
+    font-size: 15px; 
+    color: black;
+    font-family: Bahnschrift Condensed;
+}
+
+/* Media Queries */
+@media(max-width: 992px){
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: white;  
+}
+
+button{
+    margin-right: 30px; 
+}
+
+}
